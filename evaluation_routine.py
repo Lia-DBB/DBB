@@ -108,7 +108,7 @@ for n in range(test_data_size):
 error_rates = torch.tensor(error_rates)
 average_error_rates = torch.mean(error_rates, dim=-1)
 torch.save(error_rates, 'error_rates.pth')
-torch.save(error_rates, 'average_error_rates.pth')
+#torch.save(average_error_rates, 'average_error_rates.pth')
 print('average error rate:', average_error_rates.item())
     
     
