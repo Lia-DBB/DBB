@@ -73,7 +73,7 @@ Implementierung des Prototypen (vgl. Programm)
   - Hintergrund für die Vereinfachung mit batch\_size=1 & random sampling:
     - damit Transformer decoder in batch trainiert werden kann, muss eine
       Maskierung von attention weights implementiert werden, damit der
-      Prediktor kausal ist  
+      Prädiktor kausal ist  
       → etwas aufwendiger zu implementieren  
       → Vereinfachung mit batch\_size=1, durch zufälliges Ziehen von
       `pos_predict`
@@ -121,7 +121,7 @@ Modellierung
 ------------
 
 ähnlich wie bei Ansatz 1, mit nur Encoder-Teil von Transformer &
-Klassifizierung für einzelne Tokens statt Tag
+Klassifizierung für einzelne Tokens statt Tags
 
 Praktische Variante
 -------------------
