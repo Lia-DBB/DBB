@@ -137,6 +137,6 @@ Vision zur Erweiterung
 ----------------------
 
 - Optimierung von Prompt anhand der statistischen Auswertung der Resultate  
-  (z.B. kleine Variation an Prompt & Histogram dazu analysieren)
+  (z.B. kleine Variation an Prompt & Fehler-Raten dazu analysieren)
 - Vorgang automatisieren mit API (Zugang?)
 
